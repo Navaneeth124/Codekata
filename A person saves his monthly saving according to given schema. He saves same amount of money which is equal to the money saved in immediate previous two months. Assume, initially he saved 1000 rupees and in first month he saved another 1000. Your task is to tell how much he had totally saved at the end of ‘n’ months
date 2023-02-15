@@ -1,0 +1,5 @@
+a=int(input())
+if a<=2:
+    print(2000*a)
+else:
+    print((2000*a)+1000)
