@@ -1,0 +1,7 @@
+n =int(input())
+ap = [int(x) for x in input().split()]
+ans = 0
+for i in range(1, len(ap)-1):
+    if ap[i] < ap[i-1] and ap[i] < ap[i+1]:
+        ans += min(ap[i+1], ap[i-1]) - ap[i]
+print(ans)
