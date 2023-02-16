@@ -1,0 +1,7 @@
+a=int(input())
+b=list(map(int,input().split()))
+sums=sum(b)
+if sums%2==0 and sums%3==0 and sums%5==0:
+    print(1)
+else:
+    print(0)
