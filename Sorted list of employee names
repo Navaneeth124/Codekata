@@ -1,0 +1,16 @@
+a=int(input())
+d=list(map(str,input().split()))
+name=[]
+salary=[]
+for i in d:
+    if i.isalpha():
+        name.append(i)
+    else:
+        salary.append(i)
+sor = sorted(salary)
+indx = []
+for j in sor:
+    a_1 = salary.index(j)
+    indx.append(int(a_1))
+for t in indx:
+    print(name[t])
