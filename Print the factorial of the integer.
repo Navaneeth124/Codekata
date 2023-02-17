@@ -1,0 +1,9 @@
+def factorial(tin):
+    if tin==1:
+        return 1
+    else:
+        return (tin*factorial(tin-1))
+        
+a=int(input())
+final=factorial(a)
+print(final)
