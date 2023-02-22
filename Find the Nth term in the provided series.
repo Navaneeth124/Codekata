@@ -1,3 +1,4 @@
 n=int(input())
 b=n**2
 print(b)
+can use that if condition for this that the value of n is negative and =zero
