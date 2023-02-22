@@ -1,0 +1,5 @@
+a,b,c = list(map(int,input().split()))
+alp = (-b+(b**2-(4*a*c))**0.5)/(2*a)
+bet = (-b-(b**2-(4*a*c))**0.5)/(2*a)
+print('%.2f'%alp)
+print('%.2f'%bet)
