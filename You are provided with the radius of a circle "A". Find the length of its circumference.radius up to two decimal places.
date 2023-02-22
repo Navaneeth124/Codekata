@@ -1,0 +1,3 @@
+z=float(input())
+b=float(2*3.1426*z)
+print('%.2f'%b)
