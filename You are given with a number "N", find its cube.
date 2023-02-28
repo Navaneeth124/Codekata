@@ -1,0 +1,2 @@
+allu=int(input())
+print(allu**3)
