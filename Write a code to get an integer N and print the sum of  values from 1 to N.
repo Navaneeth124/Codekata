@@ -1,0 +1,5 @@
+N=int(input())
+b=[]
+for i in range(1,N+1):
+    b.append(i)
+print(sum(b))
