@@ -1,0 +1,6 @@
+N = input()
+spi = [int(x) for x in N]
+p = []
+for i in  range(len(spi)):
+    p.append(spi[i]**2)
+print(sum(p))
