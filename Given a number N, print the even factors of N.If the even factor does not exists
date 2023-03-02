@@ -1,0 +1,9 @@
+N = int(input())
+even = []
+for i in range(2, N+1):
+    if N % i == 0:
+        even.append(i)
+if N%2==1:
+    print(-1)
+else:
+    print(*even) 
