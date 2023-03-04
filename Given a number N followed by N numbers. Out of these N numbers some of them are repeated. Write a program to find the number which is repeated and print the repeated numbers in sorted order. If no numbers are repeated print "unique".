@@ -1,0 +1,14 @@
+N = int(input())
+s = list(map(int,input().split()))
+p = []
+repeat = []
+for i in s:
+    if i not in p:
+        p.append(i)
+    else:
+        repeat.append(i)
+if (len(repeat)) == 0:
+    print("unique")
+else:
+    #print(*repeat)
+    print(*(set(repeat)))
