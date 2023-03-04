@@ -1,0 +1,10 @@
+N = input()
+p = [int(i) for i in N]
+sums = sum(p)
+#print(sums)
+temp = (str(sums)[::-1])
+#print(temp)
+if sums == (int(temp)):
+    print("yes")
+else:
+    print("no")
