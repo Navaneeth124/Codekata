@@ -1,0 +1,9 @@
+n,k = list(map(int,input().split()))
+p = list(map(int,input().split()))
+cou =p.count(k)
+if cou>1:
+    print(cou)
+elif k not in p:
+    print(-1)
+else:
+    print(0)
