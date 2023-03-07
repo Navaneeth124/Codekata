@@ -1,0 +1,7 @@
+N,K = list(map(int,input().split()))
+lst_of_array = [set(input().split()) for _ in range(N)]
+comman = (sorted(set.intersection(*lst_of_array)))
+if len(comman)!=0:
+    print(" ".join(comman))
+else:
+    print(-1)
