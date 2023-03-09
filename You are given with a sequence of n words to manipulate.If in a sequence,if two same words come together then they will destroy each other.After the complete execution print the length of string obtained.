@@ -1,0 +1,14 @@
+def destroy_words(words):
+    stack = []
+    for i in words:
+        if stack and stack[-1] == i:
+            stack.pop()
+        else:
+            stack.append(i)
+    return len(stack)
+
+N = int(input())
+words = list(map(str,input().split()))
+result = destroy_words(words)
+
+print(result)
