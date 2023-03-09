@@ -1,0 +1,6 @@
+S = input()
+palin = S[::-1]
+if S == palin:
+    print("yes")
+else:
+    print("no")
