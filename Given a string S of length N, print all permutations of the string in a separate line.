@@ -1,0 +1,4 @@
+from itertools import permutations
+words = [''.join(p) for p in permutations(input())]
+for i in range(len(words)):
+    print(words[i])
