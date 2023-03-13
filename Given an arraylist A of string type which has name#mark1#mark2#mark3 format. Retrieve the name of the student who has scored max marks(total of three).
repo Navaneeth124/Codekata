@@ -1,0 +1,22 @@
+s1 = input()
+s2  = input()
+rep1 = s1.replace("#"," ")
+rep2 = s2.replace("#"," ")
+stu_m1 = []
+name_1 = []
+for i in rep1.split():
+    if i.isdigit():
+        stu_m1.append(int(i))
+    else:
+        name_1.append(i)
+stu_m2 = []
+name_2 = []
+for j in rep2.split():
+    if j.isdigit():
+        stu_m2.append(int(j))
+    else:
+        name_2.append(j)
+if sum(stu_m1)>sum(stu_m2):
+    print(*name_1)
+else:
+    print(*name_2)
