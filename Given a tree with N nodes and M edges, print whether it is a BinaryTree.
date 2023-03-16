@@ -1,0 +1,6 @@
+N = int(input())
+s = list(map(int,input().split()))
+if N%2 == 1:                         # binary tree 1 node as head & other 2 subbranch 
+    print("YES")                     # which means total 3 nodes so odd num as N   
+else:                       # n-nodes (n-1) edges,so we can divide the total nodes/2==1
+    print("NO")
