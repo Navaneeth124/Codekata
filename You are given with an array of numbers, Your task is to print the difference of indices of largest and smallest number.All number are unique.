@@ -1,0 +1,14 @@
+n = int(input())
+l = list(map(int,input().split()))
+small = l[0]
+large = l[0]
+s= 0
+
+for i in range(n):
+    if small > l[i]:
+        small = l[i]
+        s = i
+    if large < l[i]:
+        large = l[i]
+        la = i
+print(la-s)
