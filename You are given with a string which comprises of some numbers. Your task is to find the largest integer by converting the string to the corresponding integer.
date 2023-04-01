@@ -1,0 +1,15 @@
+n = list(map(str,input().split()))
+N = []
+for e in n:
+    e = e.replace('.', '')
+    e = e.replace(',', '')
+    N.append(e)
+num = []
+word = []
+for i in N:
+    if i.isnumeric():
+        num.append(int(i))
+    else:
+        word.append(i)
+print(max(num))
+#print(word)
