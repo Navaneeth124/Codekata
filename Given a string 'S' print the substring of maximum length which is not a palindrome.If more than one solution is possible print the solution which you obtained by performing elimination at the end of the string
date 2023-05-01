@@ -1,0 +1,5 @@
+S = input()
+if (S == S[::-1]):
+    print(S[:-1])
+elif S != S[::-1]:
+    print(S)
