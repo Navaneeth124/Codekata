@@ -1,0 +1,4 @@
+N = int(input())
+s = list(map(str,input().split()))
+temp = s[::-1]
+print("->".join(temp))
